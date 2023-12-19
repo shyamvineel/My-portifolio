@@ -113,7 +113,7 @@ footer a:hover img{
 }
 @media only screen and (max-width: 750px) {
     :root{
-        max-width: 80%;
+        max-width: 90%;
         margin: auto;
     }
     .Logo{
@@ -129,9 +129,9 @@ footer a:hover img{
         
     }
     .profile_photo{
-        max-width: 100%;
+        width: 100%;
+        text-align: center;
         margin: auto;
-        margin-bottom: 15px;
     }
     .profile_about{
         max-width: 100%;
@@ -160,7 +160,7 @@ footer a:hover img{
         width: 100%;
     }
     .footer_container{
-        width: 50%;
+        width: 100%;
         margin: auto;
     }
     .connect{
