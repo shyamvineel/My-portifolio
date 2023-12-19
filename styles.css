@@ -76,15 +76,15 @@ footer{
     margin: auto;
     padding: 20px;
     text-align: center;
-    display: flex;
+    display: block;
     justify-content: center;
     width: 100%;
 }
 .footer_container{
-    width: 20%;
-    height: 50px;
+    margin: auto;
+    width: 200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     padding: 10px; 
     
@@ -100,12 +100,10 @@ footer a:hover img{
 .footer_logo{
     width: 40px;
 }
-.footer_container_sub{
-    width: 33.33%;
-}
+
 .connect{
     text-align: center;
-    position: relative;
+    
     font-weight: 700;
     font-size: 18px;
     font-family:monospace;
@@ -158,15 +156,18 @@ footer a:hover img{
         width: 100%;
     }
     footer{
+        display: block;
+        justify-content: baseline;
         width: 100%;
     }
     .footer_container{
-        width: 80%;
         margin: auto;
+        width: 150px;
         display: flex;
         justify-content: space-between;
     }
     .connect{
         margin-top: 15px;
+        text-align: center;
     }
 }
